@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     background-color: rgb(208, 255, 239);
 }
@@ -8,7 +8,7 @@ body{
     width: 100vw;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .genius {
@@ -16,10 +16,9 @@ body{
     grid-template-areas: 'verde vermelho'
     'amarelo azul';
     grid-gap: 10px;
-    border: 1px solid white;
-    background-color: white;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
     border-radius: 100%;
-    margin-top: 5%;
     width: 700px;
     height: 700px;
 }
@@ -36,18 +35,22 @@ body{
     border-top-right-radius: 100%;
 }
 
-.green {
-    grid-area: verde;
-    background-color: green;
-    border-top-left-radius: 100%;
-}
-
 .yellow {
     grid-area: amarelo;
     background-color: yellow;
     border-bottom-left-radius: 100%;
 }
 
+.green {
+    grid-area: verde;
+    background-color: green;
+    border-top-left-radius: 100%;
+}
+
 .selected {
-    opacity: 0.8;
+    opacity: 0.5;
+}
+
+.unselected {
+    opacity: 1;
 }
