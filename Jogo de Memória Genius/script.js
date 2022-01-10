@@ -48,7 +48,7 @@ let checkOrder = () => {
         red.classList.replace('selected', 'unselected');
         green.classList.replace('selected', 'unselected');
         yellow.classList.replace('selected', 'unselected');
-        alert(`Pontuação: ${score}\nVocê acertou! Iniciando próximo nível!`);
+        alert(`Pontuação: ${score}\nParabéns! Você acertou! Iniciando próximo nível!`);
         nextLevel();
     }
 }
@@ -85,7 +85,7 @@ let nextLevel = () => {
 
 //funcao para game over
 let gameOver = () => {
-    alert(`Pontuação: ${score}!\nVocê perdeu o jogo!\nClique em OK para iniciar um novo jogo`);
+    alert(`Pontuação: ${score}!\nVocê perdeu o jogo! 😵\nClique em OK para iniciar um novo jogo`);
     order = [];
     clickedOrder = [];
 
@@ -98,7 +98,7 @@ let playGame = () => {
     red.classList.replace('selected', 'unselected');
     green.classList.replace('selected', 'unselected');
     yellow.classList.replace('selected', 'unselected');
-    alert('Bem vindo ao Gênesis! Iniciando novo jogo!');
+    alert('Bem vindo ao Genius✨! Iniciando novo jogo!');
     score = 0;
 
     nextLevel();
