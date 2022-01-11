@@ -9,3 +9,6 @@ Este projeto foi desenvolvido para um bootcamp na _Digital Innovation One_. Trat
 
 ### Captura de tela
 <img src="./assets/capa.png" width=500px>
+
+## Veja o projeto na prática
+https://genius-by-rafaelferraz.netlify.app/
