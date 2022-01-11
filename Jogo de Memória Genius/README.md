@@ -11,4 +11,4 @@ Este projeto foi desenvolvido para um bootcamp na _Digital Innovation One_. Trat
 <img src="./assets/capa.png" width=500px>
 
 ## Veja o projeto na prática
-<a href="https://genius-by-rafaelferraz.netlify.app/" target="_blank">https://genius-by-rafaelferraz.netlify.app/</a>
+<a href="https://genius-by-rafaelferraz.netlify.app/" target="_blank">Link para o Genius</a>
